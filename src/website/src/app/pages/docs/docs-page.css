@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.docs-page {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.docs-page__description {
+  color: color-mix(in srgb, var(--white), transparent 20%);
+  font-size: 1.2rem;
+  margin-top: 0.75rem;
+}

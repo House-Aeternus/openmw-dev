@@ -1,0 +1,16 @@
+.content-container {
+  padding: 30px 50px;
+}
+
+.page-content {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: var(--gold); 
+    margin-bottom: 1rem;
+  }
+}

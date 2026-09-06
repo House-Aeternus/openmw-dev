@@ -1,0 +1,16 @@
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 4px 0;
+
+  div {
+    height: 1px;
+    flex-grow: 1;
+    background-color: var(--border-color);
+  }
+
+  i {
+    color: var(--gold);
+  }
+}

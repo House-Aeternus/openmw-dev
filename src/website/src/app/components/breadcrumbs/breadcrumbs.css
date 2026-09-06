@@ -1,0 +1,19 @@
+.breadcrumbs {
+  margin-bottom: 1rem;
+  
+  ::ng-deep & > app-breadcrumb {
+    display: inline-block;
+    margin-right: 10px;
+  }
+    
+
+  ::ng-deep & > app-breadcrumb:not(:last-of-type)::after {
+    content: ">";
+    font-size: 1.15rem;
+    margin-left: 10px;
+  }
+
+  ::ng-deep & > app-breadcrumb:not(:last-of-type) {
+    color: var(--gold);
+  }
+}
