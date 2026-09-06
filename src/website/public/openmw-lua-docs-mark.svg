@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 117" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Antique gold compass rose</title>
+  <defs>
+    <linearGradient id="gold" x1="35" y1="20" x2="95" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a5894f"/><stop offset=".4" stop-color="#c2a46a"/><stop offset=".7" stop-color="#94753d"/><stop offset="1" stop-color="#b79856"/>
+    </linearGradient>
+  </defs>
+  <!-- Irregular outer ring and diagonal spurs, traced from the supplied reference. -->
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M57.4 24.4C42.2 27.1 32.6 38.1 30.6 51.7M30.4 64.4C31.8 77.8 40.3 87.8 54.4 92.5M73.1 93.2C88.2 89.7 99.1 77.7 100.9 64.4M100.6 51.2C98.2 36.7 87.4 26.7 73.9 24.6" stroke-width="1.65"/>
+    <path d="M55.7 25.7C43.4 28.2 34.2 38.1 32.2 48.5M33 70.8C36.3 81.3 43.9 87.9 52.2 90.6M77.6 90.2C89 85.9 96.5 75.1 98.6 67.4" stroke-width=".65" opacity=".46"/>
+    <path d="M35 27.7 47.9 38.5M38.1 28.7 44.8 37.5M96.3 28.6 85.9 40M94.2 29.3 88.9 38.4M35.3 89.6 47.6 78.8M37.3 85.4 40.5 84.9M85 81.5 95.7 94M87 81.7 93.4 88.6" stroke-width="1.55"/>
+    <path d="m50.1 43.4 3.2 7.6 8.6-6.5M77.8 42.5 1.4 8.8-8.8-5.8M48.5 70.4 8.2-3.4 3.6 11.1M82 72.5 1.2-5.2-10.3 2.2" stroke-width="1.6"/>
+  </g>
+  <!-- Faceted cardinal arms, with a transparent central opening. -->
+  <path d="M65.6 11.1 56 47.9 64.4 57.9 75.1 48.3 67.5 11.8 66.5 10.1Z" fill="#7f6639"/>
+  <path d="M65.8 14 58 47.8 64.4 54.8 65.9 37.8Z" fill="#c1a367"/>
+  <path d="M66.6 15.1 67.6 40.9 72.6 47.8 70.4 35.6Z" fill="#a78a51"/>
+  <path d="M65.6 11.9 57.2 47.8 64.4 56.2 73.9 48.1 66.8 12.4" stroke="#ad9158" stroke-width=".85" stroke-linejoin="round"/>
+  <path d="M19.7 58.3 54.6 49.8 60.5 56.6 54 64.6 20.4 59.8Z" fill="#91733d"/>
+  <path d="m22.9 58.2 31.6-6.8 3.7 4.3-13.2 1.6Z" fill="#c0a267"/>
+  <path d="m23.5 59.1 29.9 3.5 4.8-5.5-12.3 1.7Z" fill="#a88b51"/>
+  <path d="m75.9 50.5-7.6 7.1 8.1 6.6 35.3-4.2-.9-1.7Z" fill="#846938"/>
+  <path d="m76.1 51.9-5.5 5.3 16.5.9 20.9 1.1Z" fill="#b99a5e"/>
+  <path d="m71.4 58.4 5 4.2 32.2-3-21.2.2Z" fill="#9a7d44"/>
+  <path d="m64.5 61.9-9 9.1 9 35.1 2.2-1.1 7.5-34.2Z" fill="#786036"/>
+  <path d="m64.3 64.1-6.8 7.5 7.1 29.3-1.1-20.8Z" fill="#b89a5d"/>
+  <path d="m66 65.4 6.4 5.8-5.9 28.3.9-20.8Z" fill="#9b7e46"/>
+  <path d="m64.5 63-8 8.3 8.8 33.5 7.9-33.9Z" stroke="#a88a50" stroke-width=".7" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+  "topbar topbar topbar"
+  "nav-sidebar main page-sidebar"
+  "footer footer footer";
+
+  grid-template-columns: 325px 1fr 275px;
+
+  app-topbar {
+    grid-area: topbar;
+  }
+
+  app-nav-sidebar {
+    grid-area: nav-sidebar;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  app-page-sidebar {
+    grid-area: page-sidebar;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+}

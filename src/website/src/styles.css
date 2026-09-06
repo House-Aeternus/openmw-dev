@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --ink: #121313;
+  --gold: #b79557;
+  --white: hsl(43, 4%, 69%);
+  --border-color: color-mix(in srgb, var(--white), black 57%);
+  --topbar-height: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*, input, button, textarea {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    linear-gradient(rgb(18 19 19 / 0.78), rgb(18 19 19 / 0.78)),
+    url("/dark-stone-tile.png") repeat;
+  background-size: auto, 420px 420px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  letter-spacing: 0.01rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}

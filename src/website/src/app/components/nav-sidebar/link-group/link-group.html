@@ -1,0 +1,17 @@
+@if (Url() === undefined) {
+  <a (click)="ToggleSubMenu()" [class.menu-is-open]="(SubmenuIsOpen() || SubmenuOpening()) && !SubmenuClosing()"><span><i class="bi {{ Icon() }}"></i> {{ Text() }}</span> <i class="bi bi-chevron-down"></i></a>
+  <ul 
+    class="sub-menu" 
+    style="--full-height: 0px;" 
+    [class.open]="SubmenuIsOpen()"
+    [class.opening]="SubmenuOpening()"
+    [class.closing]="SubmenuClosing()"
+    (animationend)="OnSubmenuAnimationEnd($event)"
+    >
+    @for (link of Links(); track $index) {
+      <li><a [class.active]="IsActive(link)" routerLink="{{ link.Url }}">{{ link.Text }}</a></li>
+    }
+  </ul>
+} @else {
+  <a routerLink="{{ Url() }}"><span><i class="bi {{ Icon() }}"></i> {{ Text() }}</span></a>
+}

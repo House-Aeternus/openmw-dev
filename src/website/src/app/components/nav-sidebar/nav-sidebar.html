@@ -1,0 +1,32 @@
+<aside>
+  <div class="contents">
+    <section>
+      <h3>Getting Started</h3>
+      <ul>
+        <li>
+          <app-link-group
+            Text = "Introduction"
+            Icon = "bi bi-newspaper"
+            [Links]='[
+              { Text: "Something", Url: "" },
+              { Text: "Something", Url: "" },
+              { Text: "Something", Url: "" },
+            ]'
+          >
+          </app-link-group>
+          <app-link-group
+            Text = "Introduction"
+            Icon = "bi bi-newspaper"
+            Url = "/getting-started/introduction"
+          >
+          </app-link-group>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <app-alert-box Title="Tip">
+        Use reloadlua to do something I guess. Then things will happen to your code.
+      </app-alert-box>
+    </section>
+  </div>
+</aside>

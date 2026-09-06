@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.false-wrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: hsl(120deg 2.13% 9.22%);
+  color: var(--white);
+  width: 100%;
+}
+
+
+input {
+  background-color: transparent;
+  appearance: none;
+  border: none;
+  color: var(--white);
+  flex-grow: 1;
+  font-size: 1rem;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.shortcut-icon {
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  color: var(--white);
+}

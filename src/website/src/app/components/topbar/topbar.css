@@ -1,0 +1,76 @@
+.topbar {
+  height: var(--topbar-height);
+  position: relative;
+  display: grid;
+  gap: 20px;
+  padding: 0 40px;
+  grid-template-columns: 500px 1fr 250px 50px;
+  color: var(--gold);
+  background:
+    linear-gradient(rgb(18 19 19 / 0.88), rgb(18 19 19 / 0.88)),
+    url("/dark-stone-tile.png") repeat;
+  background-size: auto, 420px 420px;
+  border-bottom: 1px solid rgb(183 149 87 / 0.42);
+  box-shadow: 0 0 10px 8px rgb(12 12 12 / 90%)
+}
+
+.topbar::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(183 149 87 / 0.24) 12%,
+    rgb(183 149 87 / 0.6) 50%,
+    rgb(183 149 87 / 0.24) 88%,
+    transparent
+  );
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  .text {
+    h3{
+      font-weight: 400;
+      font-size: 1.8rem;
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.links {
+  display: flex;
+
+  a {
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    user-select: none;
+    &:hover {
+      cursor: pointer;
+      color: var(--gold);
+      border-bottom: 2px solid var(--gold);
+    }
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.version {
+  display: flex;
+  align-items: center;
+}
